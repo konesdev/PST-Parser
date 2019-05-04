@@ -31,7 +31,7 @@ namespace PSTParse.MessageLayer
 
         public string Subject { get; set; }
         public string SubjectPrefix { get; set; }
-        public Importance Imporance { get; set; }
+        public Importance Importance { get; set; }
         public Sensitivity Sensitivity { get; set; }
         public DateTime LastSaved { get; set; }
         public DateTime ClientSubmitTime { get; set; }
